@@ -37,3 +37,18 @@
 .ex-7-img:hover{
   filter: grayscale(0.6) sepia(0.5);
 }
+.ex-8-img{
+  transition: 2s;
+}
+.ex-8-img:hover{
+  border-radius: 20px;
+  filter: grayscale(0.6) sepia(0.5);
+}
+.ex-9-img{
+  transition: 2s;
+}
+.ex-9-img:hover{
+  transform: scale(1.5);
+  border-radius: 20px;
+  filter: grayscale(0.6) sepia(0.5);
+}

@@ -52,3 +52,29 @@
   border-radius: 20px;
   filter: grayscale(0.6) sepia(0.5);
 }
+.ex-10-icon{
+  animation: spin infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+@keyframes spin{
+  0%{
+    transform: rotate(360deg);
+  }
+}
+.ex-11-icon:hover{
+  animation: spin;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  90%{
+    transform: rotate(324deg);
+  }
+  0%{
+    transform: rotate(0deg);
+  }
+}
